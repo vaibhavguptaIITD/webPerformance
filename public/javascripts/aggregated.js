@@ -4,3 +4,7 @@ console.log("script C loaded");
 console.log("script D loaded");
 console.log("script E loaded");
 console.log("script F loaded");
+console.log("script G loaded");
+console.log("script H loaded");
+console.log("script I loaded");
+console.log("script J loaded");

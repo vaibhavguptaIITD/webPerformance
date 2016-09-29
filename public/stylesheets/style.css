@@ -1,35 +1,29 @@
 body {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+	padding: 40px 15px;
+	text-align: center;
 }
-.envelope, .home, .settings, .telephone-symbol-button{ 
-	display: inline-block; 
-	background: url('../images/sprite.png?delay=2000') no-repeat; 
-	overflow: hidden; 
-	text-indent: -9999px; 
-	text-align: left; 
-}
- 
-.envelope { 
-	background-position: -0px -0px; 
-	width: 24px; 
-	height: 24px; 
-}
-.home { 
-	background-position: -24px -0px; 
-	width: 24px; 
-	height: 24px; 
-}
-.settings { 
-	background-position: -0px -24px; 
-	width: 24px; 
-	height: 24px; 
-}
-.telephone-symbol-button { 
-	background-position: -24px -24px; 
-	width: 24px; 
-	height: 24px; 
-}
+.sprite, .check, .checked-symbol, .comments, .envelope, 
+.external-link-symbol, .facebook-logo, .home, .instagram-symbol, .magnifying-glass, 
+.padlock, .power-button-off, .rupee-indian, .settings, .shopping-cart-black-shape, 
+.telephone-symbol-button
+{ display: inline-block; background: url('../images/sprite.png?delay=2000') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.sprite { background-position: -0px -0px; width: 48px; height: 48px; }
+.check { background-position: -0px -48px; width: 24px; height: 24px; }
+.checked-symbol { background-position: -24px -48px; width: 24px; height: 24px; }
+.comments { background-position: -0px -72px; width: 24px; height: 24px; }
+.envelope { background-position: -24px -72px; width: 24px; height: 24px; }
+.external-link-symbol { background-position: -0px -96px; width: 24px; height: 24px; }
+.facebook-logo { background-position: -24px -96px; width: 24px; height: 24px; }
+.home { background-position: -0px -120px; width: 24px; height: 24px; }
+.instagram-symbol { background-position: -24px -120px; width: 24px; height: 24px; }
+.magnifying-glass { background-position: -0px -144px; width: 24px; height: 24px; }
+.padlock { background-position: -24px -144px; width: 24px; height: 24px; }
+.power-button-off { background-position: -0px -168px; width: 24px; height: 24px; }
+.rupee-indian { background-position: -24px -168px; width: 24px; height: 24px; }
+.settings { background-position: -0px -192px; width: 24px; height: 24px; }
+.shopping-cart-black-shape { background-position: -24px -192px; width: 24px; height: 24px; }
+.telephone-symbol-button { background-position: -0px -216px; width: 24px; height: 24px; }

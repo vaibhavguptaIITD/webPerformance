@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1= title
+	p.lead Rules for Faster Loading Websites
+		.row
+		.col-md-12
+			ul
+				- for (var i = 0; i < rulesExamplesMap.length; i++)
+					li
+						a(href="/rule" + (i + 1))= rulesExamplesMap[i].name

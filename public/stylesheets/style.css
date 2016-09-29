@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.envelope, .home, .settings, .telephone-symbol-button{ 
+	display: inline-block; 
+	background: url('../images/sprite.png?delay=2000') no-repeat; 
+	overflow: hidden; 
+	text-indent: -9999px; 
+	text-align: left; 
+}
+ 
+.envelope { 
+	background-position: -0px -0px; 
+	width: 24px; 
+	height: 24px; 
+}
+.home { 
+	background-position: -24px -0px; 
+	width: 24px; 
+	height: 24px; 
+}
+.settings { 
+	background-position: -0px -24px; 
+	width: 24px; 
+	height: 24px; 
+}
+.telephone-symbol-button { 
+	background-position: -24px -24px; 
+	width: 24px; 
+	height: 24px; 
+}

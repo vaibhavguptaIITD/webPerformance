@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.min.css')
+		block head
+	body
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") Web Performance
+		.container
+			.start-template
+				h1=  ruleName
+				p.lead= exampleName
+				.row
+					.col-md-12
+						img(src="/images/envelope.png")
+						img(src="/images/home.png")
+						img(src="/images/settings.png")
+						img(src="/images/telephone-symbol-button.png")
+						p Adding javascript files:
+						ul
+							li
+								p bootstrap.min.js
+							li
+								p jquery-3.1.1.min.js
+		script(src= "/javascripts/bootstrap.min.js", type="text/javascript")
+		script(src= "/javascripts/jquery-3.1.1.min.js", type="text/javascript")

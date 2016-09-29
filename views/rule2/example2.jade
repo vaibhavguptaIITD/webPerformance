@@ -1,0 +1,42 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.css?cached=true')
+		link(rel='stylesheet', href='/stylesheets/style.css?cached=true')
+		block head
+	body
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") Web Performance
+		.container
+			.start-template
+				h1=  ruleName
+				p.lead= exampleName
+				.row
+					.col-md-12
+						img(src="/cached/images/envelope.png")
+						img(src="/cached/images/home.png")
+						img(src="/cached/images/settings.png")
+						img(src="/cached/images/telephone-symbol-button.png")
+						p Adding javascript files:
+						ul
+							li
+								p scriptA.js
+							li
+								p scriptB.js
+							li
+								p scriptC.js
+							li
+								p scriptD.js
+							li
+								p scriptE.js
+							li
+								p scriptF.js
+		script(src= "/javascripts/scriptA.js?cached=true&delay=2000", type="text/javascript")
+		script(src= "/javascripts/scriptB.js?cached=true&delay=2000", type="text/javascript")
+		script(src= "/javascripts/scriptC.js?cached=true&delay=2000", type="text/javascript")
+		script(src= "/javascripts/scriptD.js?cached=true&delay=2000", type="text/javascript")
+		script(src= "/javascripts/scriptE.js?cached=true&delay=2000", type="text/javascript")
+		script(src= "/javascripts/scriptF.js?cached=true&delay=2000", type="text/javascript")

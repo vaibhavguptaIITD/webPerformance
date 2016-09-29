@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.css?gzip=true')
+		link(rel='stylesheet', href='/stylesheets/style.css?gzip=true')
+		block head
+	body
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") Web Performance
+		.container
+			.start-template
+				h1=  ruleName
+				p.lead= exampleName
+				.row
+					.col-md-12
+						p Adding javascript files:
+						ul
+							li
+								p bootstrap.js
+							li 
+								p jquery.js
+		script(src= "/javascripts/bootstrap.js?gzip=true", type="text/javascript")
+		script(src= "/javascripts/jquery-3.1.1.js?gzip=true", type="text/javascript")

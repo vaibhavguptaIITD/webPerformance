@@ -1,0 +1,23 @@
+extends ../example-layout
+
+block content
+	p Adding javascript files:
+	ul
+		li
+			p scriptA.js
+		li
+			p scriptB.js
+		li
+			p scriptC.js
+		li
+			p scriptD.js
+		li
+			p scriptE.js
+		li
+			p scriptF.js
+	script(src= "/javascripts/scriptA.js?delay=2000", type="text/javascript")
+	script(src= "/javascripts/scriptB.js?delay=2000", type="text/javascript")
+	script(src= "/javascripts/scriptC.js?delay=2000", type="text/javascript")
+	script(src= "/javascripts/scriptD.js?delay=2000", type="text/javascript")
+	script(src= "/javascripts/scriptE.js?delay=2000", type="text/javascript")
+	script(src= "/javascripts/scriptF.js?delay=2000", type="text/javascript")

@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.css?delay=2000')
+		link(rel='stylesheet', href='/stylesheets/style.css?delay=2000')
+	body
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") Web Performance
+		.container
+			.start-template
+				h1=  ruleName
+				p.lead= exampleName
+				.row
+					.col-md-12
+						p Adding css files at the top
+		script(src= "/javascripts/bootstrap.js", type="text/javascript")
+		script(src= "/javascripts/jquery-3.1.1.js", type="text/javascript")

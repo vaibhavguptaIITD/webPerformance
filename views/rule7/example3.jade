@@ -1,0 +1,24 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		script(src= "/javascripts/bootstrap.js?delay=2000", type="text/javascript" async)
+		script(src= "/javascripts/jquery-3.1.1.js?delay=2000", type="text/javascript" defer)
+		script(src= "/javascripts/scriptA.js?delay=2000", type="text/javascript" async)
+		script(src= "/javascripts/scriptB.js", type="text/javascript" async)
+		script(src= "/javascripts/scriptC.js?delay=2000", type="text/javascript" defer)
+		script(src= "/javascripts/scriptD.js", type="text/javascript" defer)
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") Web Performance
+		.container
+			.start-template
+				h1=  ruleName
+				p.lead= exampleName
+				.row
+					.col-md-12
+						p Adding javascript files with defer and async
